@@ -108,6 +108,7 @@ window.NITOR_CONFIG = {
     { id: "gRRXKV7YlbI", title: "Casa en venta en Margarita", description: "Tour inmobiliario con datos clave y tomas limpias.", category: "inmuebles" },
     { id: "7EYG1UvahnE", title: "Abraham y el mod de Verity", description: "Edit de Minecraft con sustos, efectos y sincronización.", category: "gaming" },
     { id: "7T1EA6ipUNk", title: "El primer modo creativo de Minecraft", description: "Clip gaming con ritmo, gráficos y momentos destacados.", category: "gaming" },
-    { id: "wWrxDPXKI6o", title: "3 consejos para BR clasificatoria", description: "Short educativo gaming con textos y cortes dinámicos.", category: "gaming" }
+    { id: "wWrxDPXKI6o", title: "3 consejos para BR clasificatoria", description: "Short educativo gaming con textos y cortes dinámicos.", category: "gaming" },
+    { id: "dSUN8AgrRso", title: "5 DETALLES ALUCINANTES de GTA 6", description: "Short consejos gaming con textos y cortes dinámicos.", category: "gaming" },
   ]
 };
