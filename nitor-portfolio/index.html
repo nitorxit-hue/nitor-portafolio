@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0c09">
+  <meta name="color-scheme" content="dark">
+  <title>NITOR® — Editor de video · Gaming, Publicidad, Reels y YouTube</title>
+  <meta name="description" content="NITOR, editor de video profesional. Edición gaming, publicidad y videos de ventas, Reels para marca personal, historias, TikToks, Shorts, YouTube y motion graphics. Cotiza por WhatsApp.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index,follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="NITOR">
+  <meta property="og:title" content="NITOR® — Editor de video profesional">
+  <meta property="og:description" content="Gaming, publicidad, Instagram y storytelling. Elige tu estilo de edición, mira ejemplos reales y cotiza por WhatsApp.">
+  <meta property="og:image" content="/assets/og-image.png">
+  <meta property="og:image:width" content="1424">
+  <meta property="og:image:height" content="752">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NITOR® — Editor de video profesional">
+  <meta name="twitter:description" content="Gaming, publicidad, Instagram y storytelling. Cotiza tu edición por WhatsApp.">
+  <meta name="twitter:image" content="/assets/og-image.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "NITOR",
+    "description": "Editor de video profesional: gaming, publicidad, Reels, TikToks, Shorts, YouTube y motion graphics.",
+    "telephone": "+584121354734",
+    "areaServed": "Worldwide",
+    "address": { "@type": "PostalAddress", "addressCountry": "VE" },
+    "priceRange": "$10 - $100+"
+  }
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="top" id="top">
+  <div class="wrap nav">
+    <a class="logo" href="#inicio" aria-label="NITOR, ir al inicio">NITOR<i>.</i></a>
+    <nav class="links" id="menu" aria-label="Principal">
+      <a href="#inicio" data-nav>Inicio</a>
+      <a href="#portafolio" data-nav>Portafolio</a>
+      <a href="#estilos" data-nav>Estilos de edición</a>
+      <a href="#servicios" data-nav>Servicios</a>
+      <a href="#sobre-mi" data-nav>Sobre mí</a>
+      <a href="#contacto" data-nav>Contacto</a>
+      <a class="btn primary nav-cta" href="#cotizar">Contratar / Cotizar <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="sr-only">Abrir menú</span>
+      <span class="bars" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Video editor · <span class="dot" aria-hidden="true"></span> Disponible</p>
+        <h1 id="hero-title">Ideas que se vuelven <span>impacto.</span></h1>
+        <p class="lead">Soy NITOR. Edito videos gaming, anuncios que venden, Reels de marca personal e historias que retienen. Ritmo, narrativa y diseño para que tu contenido se recuerde.</p>
+        <div class="actions">
+          <a class="btn primary" href="#portafolio">Explorar portafolio <span class="arr" aria-hidden="true">↘</span></a>
+          <a class="btn ghost" href="#cotizar">Contratar <span class="arr" aria-hidden="true">↗</span></a>
+        </div>
+        <div class="quick">
+          <p class="mono-label">¿Qué estilo buscas?</p>
+          <div class="quick-list" id="quickCats"></div>
+        </div>
+      </div>
+
+      <figure class="featured" id="featured" aria-label="Trabajo destacado">
+        <div class="featured-frame">
+          <button class="featured-player" id="featuredPlayer" type="button">
+            <img id="featuredImg" alt="" width="405" height="720" fetchpriority="high" decoding="async">
+            <span class="play big" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+            <span class="featured-badge mono-label">Trabajo destacado</span>
+          </button>
+        </div>
+        <figcaption class="featured-meta">
+          <div>
+            <span class="tag" id="featuredCat"></span>
+            <h2 id="featuredTitle"></h2>
+          </div>
+          <a class="link-arrow" id="featuredQuote" href="#cotizar">Quiero algo así <span aria-hidden="true">↗</span></a>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Gaming <b>✳</b></span><span>Publicidad <b>✳</b></span><span>Reels <b>✳</b></span><span>Storytelling <b>✳</b></span><span>YouTube <b>✳</b></span><span>Motion graphics <b>✳</b></span>
+      <span>Gaming <b>✳</b></span><span>Publicidad <b>✳</b></span><span>Reels <b>✳</b></span><span>Storytelling <b>✳</b></span><span>YouTube <b>✳</b></span><span>Motion graphics <b>✳</b></span>
+    </div>
+  </div>
+
+  <!-- ============ ESTILOS ============ -->
+  <section class="section" id="estilos" aria-labelledby="estilos-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <div><p class="eyebrow">01 / Estilos de edición</p><h2 id="estilos-title">Elige tu estilo<span class="acc">.</span></h2></div>
+        <p>Selecciona el tipo de edición que necesitas y mira solo los ejemplos de ese estilo.</p>
+      </div>
+      <div class="cats" id="cats"></div>
+    </div>
+  </section>
+
+  <!-- ============ PORTAFOLIO ============ -->
+  <section class="section portfolio" id="portafolio" aria-labelledby="portafolio-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <div><p class="eyebrow">02 / Portafolio</p><h2 id="portafolio-title">Trabajo seleccionado<span class="acc">.</span></h2></div>
+        <p>Pulsa cualquier pieza para reproducirla. El portafolio se actualiza con nuevos proyectos.</p>
+      </div>
+      <div class="filters" id="filters" role="toolbar" aria-label="Filtrar proyectos por categoría"></div>
+      <p class="sr-only" id="filterStatus" aria-live="polite"></p>
+      <div class="gallery" id="gallery"></div>
+      <div class="empty" id="empty" hidden>
+        <p>Todavía no hay proyectos publicados en esta categoría.</p>
+        <a class="btn ghost" href="#cotizar" data-quote-current>Cotiza este estilo igualmente <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICIOS ============ -->
+  <section class="section services" id="servicios" aria-labelledby="servicios-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <div><p class="eyebrow">03 / Servicios</p><h2 id="servicios-title">Contenido con propósito<span class="acc">.</span></h2></div>
+        <p>Cada servicio está pensado para un objetivo concreto: entretener, vender, educar o construir tu marca.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service reveal">
+          <header><span class="num">01</span><span class="tag">Gaming</span></header>
+          <h3>Edición de videos gaming</h3>
+          <dl>
+            <div><dt>Incluye</dt><dd>Montajes, highlights, sincronización musical, transiciones, zooms, efectos de sonido y textos.</dd></div>
+            <div><dt>Para</dt><dd>Streamers, gamers y creadores de Free Fire, Fortnite y más.</dd></div>
+            <div><dt>Resuelve</dt><dd>Horas de gameplay que nadie ve completas.</dd></div>
+            <div><dt>Resultado</dt><dd>Clips intensos que se comparten y hacen crecer tu canal.</dd></div>
+          </dl>
+          <a class="btn ghost sm" href="#cotizar" data-quote data-category="gaming" data-service="Reel / TikTok / Short">Solicitar cotización <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="service reveal">
+          <header><span class="num">02</span><span class="tag">Publicidad</span></header>
+          <h3>Publicidad y videos de ventas</h3>
+          <dl>
+            <div><dt>Incluye</dt><dd>Gancho inicial, textos animados, ofertas destacadas, música comercial y llamado a la acción.</dd></div>
+            <div><dt>Para</dt><dd>Negocios, tiendas, marcas y emprendedores.</dd></div>
+            <div><dt>Resuelve</dt><dd>Anuncios que se ignoran y no convierten.</dd></div>
+            <div><dt>Resultado</dt><dd>Piezas claras y atractivas que comunican tu oferta en segundos.</dd></div>
+          </dl>
+          <a class="btn ghost sm" href="#cotizar" data-quote data-category="ads" data-service="Publicidad para negocio o marca">Solicitar cotización <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="service reveal">
+          <header><span class="num">03</span><span class="tag">Instagram</span></header>
+          <h3>Marca personal y contenido educativo</h3>
+          <dl>
+            <div><dt>Incluye</dt><dd>Subtítulos dinámicos, limpieza de pausas, b-roll, énfasis visuales y estructura de valor.</dd></div>
+            <div><dt>Para</dt><dd>Emprendedores, coaches, influencers y expertos.</dd></div>
+            <div><dt>Resuelve</dt><dd>Videos a cámara planos que pierden a la audiencia.</dd></div>
+            <div><dt>Resultado</dt><dd>Reels que posicionan tu conocimiento y generan confianza.</dd></div>
+          </dl>
+          <a class="btn ghost sm" href="#cotizar" data-quote data-category="instagram" data-service="Reel / TikTok / Short">Solicitar cotización <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="service reveal">
+          <header><span class="num">04</span><span class="tag">Short form</span></header>
+          <h3>Reels, TikToks y Shorts</h3>
+          <dl>
+            <div><dt>Incluye</dt><dd>Formato 9:16, cortes rápidos, hooks, subtítulos, música y storytelling breve.</dd></div>
+            <div><dt>Para</dt><dd>Creadores que publican con frecuencia en redes.</dd></div>
+            <div><dt>Resuelve</dt><dd>Falta de tiempo para editar con constancia.</dd></div>
+            <div><dt>Resultado</dt><dd>Contenido vertical listo para publicar y retener.</dd></div>
+          </dl>
+          <a class="btn ghost sm" href="#cotizar" data-quote data-category="historias" data-service="Reel / TikTok / Short">Solicitar cotización <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="service reveal">
+          <header><span class="num">05</span><span class="tag">Long form</span></header>
+          <h3>Videos largos para YouTube</h3>
+          <dl>
+            <div><dt>Incluye</dt><dd>Edición narrativa, ritmo, música, recursos visuales, limpieza de audio y estructura.</dd></div>
+            <div><dt>Para</dt><dd>YouTubers, podcasts y canales educativos o de entretenimiento.</dd></div>
+            <div><dt>Resuelve</dt><dd>Videos largos que la audiencia abandona a mitad.</dd></div>
+            <div><dt>Resultado</dt><dd>Una historia que fluye y mantiene la retención.</dd></div>
+          </dl>
+          <a class="btn ghost sm" href="#cotizar" data-quote data-service="Video largo para YouTube">Solicitar cotización <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="service reveal">
+          <header><span class="num">06</span><span class="tag">Visual FX</span></header>
+          <h3>Motion graphics y efectos</h3>
+          <dl>
+            <div><dt>Incluye</dt><dd>Animación de textos, transiciones, composición, gráficos y detalles visuales.</dd></div>
+            <div><dt>Para</dt><dd>Marcas y creadores que buscan un acabado premium.</dd></div>
+            <div><dt>Resuelve</dt><dd>Videos que se ven genéricos o poco profesionales.</dd></div>
+            <div><dt>Resultado</dt><dd>Una identidad visual coherente y memorable.</dd></div>
+          </dl>
+          <a class="btn ghost sm" href="#cotizar" data-quote data-service="Motion graphics / efectos">Solicitar cotización <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="section" id="sobre-mi" aria-labelledby="sobre-title">
+    <div class="wrap about">
+      <div class="monogram reveal" aria-hidden="true">
+        <strong>N.</strong>
+        <ul class="crafts"><li>Ritmo</li><li>Narrativa</li><li>Diseño</li><li>Sonido</li><li>Creatividad</li></ul>
+        <small>NITOR · Video editor</small>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">04 / Sobre NITOR</p>
+        <h2 id="sobre-title">No es solo cortar y pegar.</h2>
+        <p>Soy NITOR, editor de video de Venezuela. No solamente corto videos: construyo experiencias audiovisuales a través del ritmo, la narrativa, el diseño, el sonido y la creatividad, desde el primer gancho hasta el último detalle.</p>
+        <p>Trabajo para que cada pieza tenga una razón para existir, una identidad visual propia y una conexión real con su audiencia. Tú pones la idea y el material; yo me encargo de que se note.</p>
+        <div class="values">
+          <div class="value"><strong>9:16</strong><span>Formato vertical</span></div>
+          <div class="value"><strong>16:9</strong><span>YouTube y long form</span></div>
+          <div class="value"><strong>100%</strong><span>Enfoque creativo</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESO ============ -->
+  <section class="section process" aria-labelledby="proceso-title">
+    <div class="wrap">
+      <div class="head reveal">
+        <div><p class="eyebrow">05 / Proceso</p><h2 id="proceso-title">Contratar es sencillo<span class="acc">.</span></h2></div>
+        <p>Seis pasos claros, desde el primer mensaje hasta la entrega de tu video.</p>
+      </div>
+      <ol class="steps">
+        <li class="step reveal"><b>01</b><h3>Eliges el estilo</h3><p>Gaming, publicidad, Instagram o historias.</p></li>
+        <li class="step reveal"><b>02</b><h3>Explicas lo que necesitas</h3><p>Objetivo, referencias, duración y material.</p></li>
+        <li class="step reveal"><b>03</b><h3>Recibes una cotización</h3><p>Según duración, complejidad y recursos.</p></li>
+        <li class="step reveal"><b>04</b><h3>Acordamos los detalles</h3><p>Alcance, tiempos, revisiones y forma de pago.</p></li>
+        <li class="step reveal"><b>05</b><h3>Comienza la edición</h3><p>Ritmo, sonido, diseño y efectos.</p></li>
+        <li class="step reveal"><b>06</b><h3>Recibes tu proyecto</h3><p>Tu video final, listo para publicar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ COTIZADOR ============ -->
+  <section class="quote" id="cotizar" aria-labelledby="cotizar-title">
+    <div class="wrap quote-grid">
+      <div class="quote-intro reveal">
+        <p class="eyebrow">06 / Cotizador</p>
+        <h2 id="cotizar-title">Tu idea.<br>Tu presupuesto.</h2>
+        <p>Completa los datos y se abrirá WhatsApp con tu solicitud organizada. La cotización final se acuerda según duración, complejidad, recursos y revisiones.</p>
+        <ul class="assure">
+          <li>Sin pagos en la web: todo se acuerda por conversación directa.</li>
+          <li>Presupuestos desde $10 USD o un monto personalizado.</li>
+          <li>Respuesta directa de NITOR por WhatsApp.</li>
+        </ul>
+      </div>
+
+      <form class="formbox reveal" id="quoteForm" novalidate>
+        <div class="field">
+          <label for="qName">Tu nombre <span class="opt">(opcional)</span></label>
+          <input id="qName" name="name" type="text" maxlength="60" autocomplete="name" placeholder="Ej. Carla">
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="qService">Tipo de edición</label>
+            <select id="qService" name="service">
+              <option>Reel / TikTok / Short</option>
+              <option>Video largo para YouTube</option>
+              <option>Publicidad para negocio o marca</option>
+              <option>Motion graphics / efectos</option>
+              <option>Otro proyecto</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="qCategory">Categoría</label>
+            <select id="qCategory" name="category"></select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="qType">Tipo de video</label>
+            <select id="qType" name="type"></select>
+          </div>
+          <div class="field">
+            <label for="qDuration">Duración aproximada</label>
+            <select id="qDuration" name="duration">
+              <option>Menos de 15 segundos</option>
+              <option selected>15 a 30 segundos</option>
+              <option>30 a 60 segundos</option>
+              <option>1 a 3 minutos</option>
+              <option>3 a 10 minutos</option>
+              <option>Más de 10 minutos</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="qQty">Cantidad de videos</label>
+          <div class="stepper">
+            <button type="button" id="qtyMinus" aria-label="Quitar un video">−</button>
+            <input id="qQty" name="qty" type="number" inputmode="numeric" min="1" max="100" value="1">
+            <button type="button" id="qtyPlus" aria-label="Añadir un video">+</button>
+          </div>
+        </div>
+
+        <fieldset class="field budget">
+          <legend>Presupuesto estimado (USD)</legend>
+          <div class="chips" id="budgetChips"></div>
+          <div class="custom" id="customField" hidden>
+            <label for="qCustom">Tu presupuesto en USD</label>
+            <input id="qCustom" type="number" inputmode="numeric" min="1" max="100000" placeholder="Ej. 150">
+            <p class="error" id="customError" hidden>Escribe un monto válido mayor a 0.</p>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="qDetails">Descripción del proyecto</label>
+          <textarea id="qDetails" name="details" maxlength="600" rows="4" placeholder="¿Qué video necesitas? ¿Tienes referencias o material grabado? ¿Fecha de entrega?"></textarea>
+        </div>
+
+        <div class="total">
+          <span>Presupuesto propuesto</span>
+          <strong id="total" aria-live="polite">$50 USD</strong>
+        </div>
+        <p class="note">No es un pago ni un precio cerrado: es el punto de partida de la cotización.</p>
+        <button class="send" type="submit">Solicitar cotización por WhatsApp <span aria-hidden="true">↗</span></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="contact" id="contacto" aria-labelledby="contacto-title">
+    <div class="wrap">
+      <div class="contact-card reveal">
+        <p class="eyebrow">07 / Contacto</p>
+        <h2 id="contacto-title">¿Tienes una idea?<br><span>Vamos a hacerla realidad.</span></h2>
+        <p class="contact-copy">Escríbeme por WhatsApp y coordinamos los detalles de tu proyecto.</p>
+        <div class="contact-actions">
+          <a class="btn primary lg" data-wa href="https://wa.me/584121354734" target="_blank" rel="noopener">Hablar por WhatsApp <span aria-hidden="true">↗</span></a>
+          <div class="socials" id="socials"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap footrow">
+    <a class="logo" href="#inicio" aria-label="NITOR, volver al inicio">NITOR<i>.</i></a>
+    <p>© <span id="year"></span> NITOR · Video editor · Venezuela</p>
+    <div class="socials small" id="footSocials"></div>
+  </div>
+</footer>
+
+<a class="wa-float" data-wa href="https://wa.me/584121354734" target="_blank" rel="noopener" aria-label="Escribir a NITOR por WhatsApp">
+  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.45-5.03c0-5.2 4.24-9.44 9.45-9.44a9.4 9.4 0 0 1 9.44 9.45c0 5.2-4.24 9.44-9.45 9.44M20.08 3.9A11.3 11.3 0 0 0 12.05.6C5.8.6.7 5.7.7 11.95c0 2 .52 3.95 1.52 5.67L.6 23.4l5.92-1.55a11.3 11.3 0 0 0 5.42 1.38h.01c6.26 0 11.35-5.09 11.35-11.35 0-3.03-1.18-5.88-3.32-8.02"/></svg>
+</a>
+
+<div class="dock" id="dock">
+  <a class="btn primary" href="#cotizar">Cotizar</a>
+  <a class="btn ghost" data-wa href="https://wa.me/584121354734" target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<dialog class="modal" id="modal" aria-labelledby="modalTitle">
+  <div class="modal-inner">
+    <div class="modal-player" id="modalPlayer"></div>
+    <div class="modal-meta">
+      <div><span class="tag" id="modalCat"></span><h2 id="modalTitle"></h2><p id="modalDesc"></p></div>
+      <div class="modal-actions">
+        <a class="btn primary sm" href="#cotizar" id="modalQuote">Quiero este estilo <span aria-hidden="true">↗</span></a>
+        <a class="btn ghost sm" id="modalYT" href="#" target="_blank" rel="noopener">Ver en YouTube</a>
+      </div>
+    </div>
+    <button class="modal-close" id="modalClose" type="button" aria-label="Cerrar reproductor">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</dialog>
+
+<script src="config.js"></script>
+<script src="app.js" defer></script>
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
