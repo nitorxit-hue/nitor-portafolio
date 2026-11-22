@@ -32,6 +32,25 @@ window.NITOR_CONFIG = {
                   Si se deja vacío, se usa la miniatura del primer video de la categoría.
      videoTypes → opciones de "Tipo de video" que aparecen en el cotizador. */
   categories: [
+     
+     {
+      key: "ingles",
+      label: "INGLÉS",
+      title: "Inglés y bilingüe",
+      description: "Videos en inglés, clases, práctica de speaking, vocabulario y contenido adaptado para audiencia angloparlante.",
+      cover: "",
+      videoTypes: ["Video en inglés (Shorts / Reels)", "Clase o tip de inglés", "Traducción o subtítulos en inglés", "Video largo en inglés"]
+    },
+
+        {
+      key: "comida",
+      label: "COMIDA",
+      title: "Comida y restaurantes",
+      description: "Videos foodie para restaurantes, locales y creadores gastronómicos que abren el apetito desde el primer segundo.",
+      cover: "",
+      videoTypes: ["Reseña de restaurante", "Ruta o recomendaciones foodie", "Promoción de menú o local", "Short / Reel gastronómico"]
+    },
+     
     {
       key: "gaming",
       label: "GAMING",
@@ -64,14 +83,7 @@ window.NITOR_CONFIG = {
       cover: "",
       videoTypes: ["Historia narrada", "Anécdota o curiosidad", "Recap / resumen de una historia", "Serie de historias"]
     },
-    {
-      key: "comida",
-      label: "COMIDA",
-      title: "Comida y restaurantes",
-      description: "Videos foodie para restaurantes, locales y creadores gastronómicos que abren el apetito desde el primer segundo.",
-      cover: "",
-      videoTypes: ["Reseña de restaurante", "Ruta o recomendaciones foodie", "Promoción de menú o local", "Short / Reel gastronómico"]
-    },
+ 
     {
       key: "inmuebles",
       label: "INMUEBLES",
@@ -81,14 +93,6 @@ window.NITOR_CONFIG = {
       videoTypes: ["Recorrido de propiedad", "Anuncio de venta o alquiler", "Presentación de proyecto inmobiliario", "Short / Reel inmobiliario"]
     },
 
-{
-      key: "ingles",
-      label: "INGLÉS",
-      title: "Inglés y bilingüe",
-      description: "Videos en inglés, clases, práctica de speaking, vocabulario y contenido adaptado para audiencia angloparlante.",
-      cover: "",
-      videoTypes: ["Video en inglés (Shorts / Reels)", "Clase o tip de inglés", "Traducción o subtítulos en inglés", "Video largo en inglés"]
-    },
 ],
   /* ---------- VIDEOS ----------
      Para añadir un video: duplica una línea y cambia sus datos.
