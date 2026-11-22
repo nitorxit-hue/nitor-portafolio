@@ -84,7 +84,7 @@ window.NITOR_CONFIG = {
 {
       key: "ingles",
       label: "INGLÉS",
-      title: "Contenido en inglés y bilingüe",
+      title: "Inglés y bilingüe",
       description: "Videos en inglés, clases, práctica de speaking, vocabulario y contenido adaptado para audiencia angloparlante.",
       cover: "",
       videoTypes: ["Video en inglés (Shorts / Reels)", "Clase o tip de inglés", "Traducción o subtítulos en inglés", "Video largo en inglés"]
