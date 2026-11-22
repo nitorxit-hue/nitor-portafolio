@@ -42,6 +42,14 @@ window.NITOR_CONFIG = {
       videoTypes: ["Video en inglés (Shorts / Reels)", "Clase o tip de inglés", "Traducción o subtítulos en inglés", "Video largo en inglés"]
     },
 
+      {
+      key: "instagram",
+      label: "INSTAGRAM",
+      title: "Instagram y marca personal",
+      description: "Reels educativos, consejos, videos a cámara y clips de entrevistas con subtítulos dinámicos.",
+      cover: "",
+      videoTypes: ["Consejos / contenido educativo", "Video hablando a cámara", "Clips de podcast o entrevista", "Contenido de marca personal"]
+    },
         {
       key: "comida",
       label: "COMIDA",
@@ -49,6 +57,24 @@ window.NITOR_CONFIG = {
       description: "Videos foodie para restaurantes, locales y creadores gastronómicos que abren el apetito desde el primer segundo.",
       cover: "",
       videoTypes: ["Reseña de restaurante", "Ruta o recomendaciones foodie", "Promoción de menú o local", "Short / Reel gastronómico"]
+    },
+
+         {
+      key: "ads",
+      label: "PUBLICIDAD",
+      title: "Publicidad y ventas",
+      description: "Anuncios para negocios, productos, tiendas y marcas. Ofertas y contenido comercial pensado para captar clientes.",
+      cover: "",
+      videoTypes: ["Anuncio de producto", "Promoción u oferta", "Video de ventas", "Presentación de marca o negocio"]
+    },
+
+        {
+      key: "inmuebles",
+      label: "INMUEBLES",
+      title: "Inmuebles y bienes raíces",
+      description: "Recorridos de propiedades en venta o alquiler con tomas limpias, textos de datos clave y ritmo que vende.",
+      cover: "",
+      videoTypes: ["Recorrido de propiedad", "Anuncio de venta o alquiler", "Presentación de proyecto inmobiliario", "Short / Reel inmobiliario"]
     },
      
     {
@@ -59,22 +85,8 @@ window.NITOR_CONFIG = {
       cover: "",
       videoTypes: ["Montaje / edit con música", "Clips y momentos destacados", "Gameplay largo para YouTube", "Short / Reel gaming"]
     },
-    {
-      key: "ads",
-      label: "PUBLICIDAD",
-      title: "Publicidad y ventas",
-      description: "Anuncios para negocios, productos, tiendas y marcas. Ofertas y contenido comercial pensado para captar clientes.",
-      cover: "",
-      videoTypes: ["Anuncio de producto", "Promoción u oferta", "Video de ventas", "Presentación de marca o negocio"]
-    },
-    {
-      key: "instagram",
-      label: "INSTAGRAM",
-      title: "Instagram y marca personal",
-      description: "Reels educativos, consejos, videos a cámara y clips de entrevistas con subtítulos dinámicos.",
-      cover: "",
-      videoTypes: ["Consejos / contenido educativo", "Video hablando a cámara", "Clips de podcast o entrevista", "Contenido de marca personal"]
-    },
+
+   
     {
       key: "historias",
       label: "HISTORIAS",
@@ -84,14 +96,7 @@ window.NITOR_CONFIG = {
       videoTypes: ["Historia narrada", "Anécdota o curiosidad", "Recap / resumen de una historia", "Serie de historias"]
     },
  
-    {
-      key: "inmuebles",
-      label: "INMUEBLES",
-      title: "Inmuebles y bienes raíces",
-      description: "Recorridos de propiedades en venta o alquiler con tomas limpias, textos de datos clave y ritmo que vende.",
-      cover: "",
-      videoTypes: ["Recorrido de propiedad", "Anuncio de venta o alquiler", "Presentación de proyecto inmobiliario", "Short / Reel inmobiliario"]
-    },
+
 
 ],
   /* ---------- VIDEOS ----------
