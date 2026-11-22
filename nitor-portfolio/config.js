@@ -79,9 +79,17 @@ window.NITOR_CONFIG = {
       description: "Recorridos de propiedades en venta o alquiler con tomas limpias, textos de datos clave y ritmo que vende.",
       cover: "",
       videoTypes: ["Recorrido de propiedad", "Anuncio de venta o alquiler", "Presentación de proyecto inmobiliario", "Short / Reel inmobiliario"]
-    }
-  ],
+    },
 
+{
+      key: "ingles",
+      label: "INGLÉS",
+      title: "Contenido en inglés y bilingüe",
+      description: "Videos en inglés, clases, práctica de speaking, vocabulario y contenido adaptado para audiencia angloparlante.",
+      cover: "",
+      videoTypes: ["Video en inglés (Shorts / Reels)", "Clase o tip de inglés", "Traducción o subtítulos en inglés", "Video largo en inglés"]
+    },
+],
   /* ---------- VIDEOS ----------
      Para añadir un video: duplica una línea y cambia sus datos.
      id          → ID de YouTube. Ej: youtube.com/shorts/ABC123  →  "ABC123"
@@ -110,5 +118,6 @@ window.NITOR_CONFIG = {
     { id: "7T1EA6ipUNk", title: "El primer modo creativo de Minecraft", description: "Clip gaming con ritmo, gráficos y momentos destacados.", category: "gaming" },
     { id: "wWrxDPXKI6o", title: "3 consejos para BR clasificatoria", description: "Short educativo gaming con textos y cortes dinámicos.", category: "gaming" },
     { id: "dSUN8AgrRso", title: "5 DETALLES ALUCINANTES de GTA 6", description: "Short consejos gaming con textos y cortes dinámicos.", category: "gaming" },
+    { id: "FY3fyqsBKuw", title: "Car audio", description: "Short ingles subtitles.", category: "ingles" },
   ]
 };
